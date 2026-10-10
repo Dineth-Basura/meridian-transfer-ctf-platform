@@ -1,0 +1,25 @@
+<nav class="navbar navbar-expand-md navbar-dark fixed-top mt-nav" aria-label="Main navigation">
+  <div class="container">
+    <a class="navbar-brand mt-brand" href="{{ url_for('views.static_html') }}"><span class="mt-mark" aria-hidden="true">M</span> Meridian <span class="mt-brand-light">Transfer</span></a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mt-navigation" aria-controls="mt-navigation" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+    <div class="collapse navbar-collapse" id="mt-navigation">
+      <ul class="navbar-nav me-auto">
+        {% if authed() %}<li class="nav-item"><a class="nav-link" href="{{ url_for('challenges.listing') }}">Challenges</a></li>{% else %}<li class="nav-item"><a class="nav-link" href="{{ url_for('auth.login') }}">Sign in to play</a></li>{% endif %}
+        <li class="nav-item"><a class="nav-link" href="{{ url_for('scoreboard.listing') }}">Scoreboard</a></li>
+      </ul>
+      <ul class="navbar-nav align-items-md-center mt-account">
+        {% if authed() %}
+          <li class="nav-item mt-session"><span class="mt-role">{{ 'Administrator' if is_admin() else 'Participant' }}</span><span class="mt-username">{{ User.name }}</span></li>
+          {% if is_admin() %}<li class="nav-item"><a class="nav-link" href="{{ url_for('admin.view') }}">Admin Panel</a></li>{% endif %}
+          <li class="nav-item"><a class="nav-link" href="{{ url_for('views.settings') }}">Settings</a></li>
+          <li class="nav-item"><a class="nav-link mt-signout" href="{{ url_for('auth.logout') }}">Sign out</a></li>
+        {% else %}
+          <li class="nav-item"><a class="nav-link" href="{{ url_for('auth.login') }}">Sign in</a></li>
+          {% if registration_visible() %}<li class="nav-item"><a class="nav-link mt-register" href="{{ url_for('auth.register') }}">Create participant account</a></li>{% endif %}
+        {% endif %}
+        <li class="nav-item"><button class="nav-link theme-switch" type="button" aria-label="Toggle theme"><i class="fas fa-sun" aria-hidden="true"></i></button></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+<script>document.body.dataset.mtSession = {{ ('admin' if is_admin() else 'participant' if authed() else 'guest') | tojson }};</script>

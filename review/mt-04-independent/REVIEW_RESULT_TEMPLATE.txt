@@ -1,0 +1,51 @@
+Reviewer: Member 02
+Date:
+
+Participant-facing material only:
+YES / NO
+
+Login:
+PASS / FAIL
+
+Own record access:
+PASS / FAIL
+
+Target identifier discovered:
+PASS / FAIL
+
+Normal cross-owner access denied:
+PASS / FAIL
+
+Vulnerable export identified:
+PASS / FAIL
+
+Restricted record retrieved:
+PASS / FAIL
+
+One MT-04 flag recovered:
+PASS / FAIL
+
+Flag accepted by CTFd:
+PASS / FAIL
+
+Own proof-of-concept written:
+YES / NO
+
+Authorization defect explanation:
+PASS / FAIL
+
+Author/private material used:
+YES / NO
+
+Solve time:
+
+Difficulty:
+Easy / Moderate / Hard
+
+Unexpected ambiguity:
+YES / NO
+
+Reviewer notes:
+
+Final independent review:
+PASS / FAIL

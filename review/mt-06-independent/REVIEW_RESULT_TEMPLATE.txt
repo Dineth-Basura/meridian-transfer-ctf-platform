@@ -1,0 +1,72 @@
+Reviewer: Member 02
+Date:
+
+Participant-facing material only:
+YES / NO
+
+Outer checksum:
+PASS / FAIL
+
+Inner evidence hashes:
+PASS / FAIL
+
+Own parser written:
+YES / NO
+
+1000 JSONL rows handled:
+PASS / FAIL
+
+Malformed rows handled:
+PASS / FAIL
+
+Selection rules implemented:
+PASS / FAIL
+
+UTC normalization:
+PASS / FAIL
+
+Window boundaries correct:
+PASS / FAIL
+
+Retries deduplicated:
+PASS / FAIL
+
+Conflicting duplicates understood:
+PASS / FAIL
+
+Base64 tokens decoded:
+PASS / FAIL
+
+Sort order correct:
+PASS / FAIL
+
+LF serialization:
+PASS / FAIL
+
+No-final-LF rule:
+PASS / FAIL
+
+SHA-256 first32 rule:
+PASS / FAIL
+
+One MT-06 flag derived:
+PASS / FAIL
+
+Flag accepted by CTFd:
+PASS / FAIL
+
+Author/private material used:
+YES / NO
+
+Solve time:
+
+Difficulty:
+Easy / Moderate / Moderate-Hard / Hard
+
+Ambiguity:
+YES / NO
+
+Notes:
+
+Final independent review:
+PASS / FAIL

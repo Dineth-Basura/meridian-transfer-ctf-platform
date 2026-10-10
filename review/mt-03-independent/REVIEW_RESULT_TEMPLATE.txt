@@ -1,0 +1,45 @@
+Reviewer: Member 03
+Date:
+
+Public material only:
+YES / NO
+
+SHA-256:
+PASS / FAIL
+
+Outer representation identified:
+PASS / FAIL
+
+Release-date clue interpreted:
+PASS / FAIL
+
+Shift derived independently:
+PASS / FAIL
+
+Transformations reversed:
+PASS / FAIL
+
+Readable dispatch recovered:
+PASS / FAIL
+
+Exactly one flag recovered:
+PASS / FAIL
+
+Flag accepted by CTFd:
+PASS / FAIL
+
+Author/private material used:
+YES / NO
+
+Solve time:
+
+Difficulty:
+Easy / Moderate / Hard
+
+Ambiguity:
+YES / NO
+
+Notes:
+
+Final independent review:
+PASS / FAIL

@@ -1,0 +1,40 @@
+Reviewer: Member 03
+Date:
+Public material only: YES / NO
+
+Checksum verification:
+PASS / FAIL
+
+Image type inspection:
+PASS / FAIL
+
+Metadata clue identified:
+PASS / FAIL
+
+Independent extraction method created:
+PASS / FAIL
+
+Payload recovered:
+PASS / FAIL
+
+One unique MT-02 flag recovered:
+PASS / FAIL
+
+Flag accepted by CTFd:
+PASS / FAIL
+
+Author/private material used:
+YES / NO
+
+Approximate solve time:
+
+Difficulty assessment:
+Easy / Moderate / Hard
+
+Unexpected ambiguity:
+YES / NO
+
+Reviewer notes:
+
+Final independent review:
+PASS / FAIL

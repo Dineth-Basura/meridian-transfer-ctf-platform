@@ -1,0 +1,9 @@
+{
+  "timestamp": "2026-09-27T16:36:56.697542+00:00",
+  "Anonymous admin access blocked": "PASS",
+  "Participant admin access blocked": "PASS",
+  "Registration and participant login": "PASS",
+  "Role escalation blocked": "PASS",
+  "Administrator login": "PASS",
+  "Logout restores registration": "PASS"
+}

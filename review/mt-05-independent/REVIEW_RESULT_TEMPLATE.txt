@@ -1,0 +1,63 @@
+Reviewer: Member 02
+
+Date:
+
+
+
+Participant-facing material only:
+YES / NO
+
+Outer SHA-256:
+PASS / FAIL
+
+Inner evidence hashes:
+PASS / FAIL
+
+CSV inspected:
+PASS / FAIL
+
+Access log inspected:
+PASS / FAIL
+
+SQLite inspected:
+PASS / FAIL
+
+Timestamp formats understood:
+PASS / FAIL
+
+UTC normalization:
+PASS / FAIL
+
+Three-source correlation:
+PASS / FAIL
+
+Unique completed export:
+PASS / FAIL
+
+Canonical value constructed independently:
+PASS / FAIL
+
+SHA-256 rule applied:
+PASS / FAIL
+
+Exactly one MT-05 flag derived:
+PASS / FAIL
+
+Flag accepted by CTFd:
+PASS / FAIL
+
+Author/private material used:
+YES / NO
+
+Solve time:
+
+Difficulty:
+Easy / Moderate / Moderate-Hard / Hard
+
+Ambiguity:
+YES / NO
+
+Notes:
+
+Final independent review:
+PASS / FAIL
