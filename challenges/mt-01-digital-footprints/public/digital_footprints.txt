@@ -1,0 +1,51 @@
+MERIDIAN TRANSFER
+PUBLIC EVIDENCE ARCHIVE
+Stage: MT-01 – Digital Footprints
+
+All organizations, aliases, events and records below are fictional.
+These are offline snapshots, not websites or live accounts.
+
+SOURCE A – PROJECT BULLETIN
+Archive reference: MT-BUL-014; issued 2031-04-21
+The review concerns a contributor assigned to the disputed workstream,
+with a recorded contribution during the relevant window, who also gave
+the required handover briefing. Directory assignment, repository dates
+and event attendance were recorded independently by separate clerks.
+Disputed workstream: Estuary Model
+Relevant window: 2031-04-14 through 2031-04-18
+Required briefing: Packet Review 42
+Background: the workshop on display styling concerns a different packet.
+
+SOURCE B – CONTRIBUTOR DIRECTORY
+Archive reference: MT-DIR-006; roster frozen 2031-04-12
+Fields: DIRECTORY|alias|assigned workstream|contributor role
+DIRECTORY|clayorbit_edf1|Canopy Index|research contributor
+DIRECTORY|mossvector_04df|Canopy Index|research contributor
+DIRECTORY|dunetrace_f5c8|Estuary Model|research contributor
+DIRECTORY|tidalquill_b777|Estuary Model|research contributor
+DIRECTORY|siltfolio_c9b9|Estuary Model|research contributor
+DIRECTORY|reedmatrix_0410|Estuary Model|research contributor
+
+SOURCE C – REPOSITORY ACTIVITY SUMMARY
+Archive reference: MT-REP-019; independent contribution ledger
+Fields: ACTIVITY|alias|contribution date (inclusive UTC day)|recorded change
+A contribution date alone does not establish assignment or briefing attendance.
+ACTIVITY|reedmatrix_0410|2031-04-16|metadata review
+ACTIVITY|siltfolio_c9b9|2031-04-16|metadata review
+ACTIVITY|tidalquill_b777|2031-04-09|metadata review
+ACTIVITY|dunetrace_f5c8|2031-04-09|metadata review
+ACTIVITY|mossvector_04df|2031-04-16|metadata review
+ACTIVITY|clayorbit_edf1|2031-04-16|metadata review
+
+SOURCE D – PUBLIC EVENT NOTICE
+Archive reference: MT-EVT-042; published after attendance reconciliation
+Fields: BRIEFING|alias|briefing title|capacity
+The notice lists confirmed speakers, not invitees.
+BRIEFING|dunetrace_f5c8|Packet Review 42|confirmed speaker
+BRIEFING|tidalquill_b777|Display Styling 11|confirmed speaker
+BRIEFING|siltfolio_c9b9|Packet Review 42|confirmed speaker
+BRIEFING|reedmatrix_0410|Display Styling 11|confirmed speaker
+BRIEFING|clayorbit_edf1|Display Styling 11|confirmed speaker
+BRIEFING|mossvector_04df|Packet Review 42|confirmed speaker
+
+End of synthetic archive.
