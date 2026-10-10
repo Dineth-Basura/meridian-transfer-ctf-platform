@@ -1,0 +1,35 @@
+name: mt04_release_register
+services:
+  portal:
+    build:
+      context: .
+    image: meridian-mt04:local
+    env_file:
+      - ../../../.secrets/mt04_service.env
+    environment:
+      MT04_DB_PATH: /app/data/seed.sqlite
+    ports:
+      - "${MT04_BIND_ADDRESS:-127.0.0.1}:8084:8000"
+    read_only: true
+    user: "10001:10001"
+    security_opt:
+      - no-new-privileges:true
+    cap_drop:
+      - ALL
+    pids_limit: 64
+    mem_limit: 256m
+    cpus: 0.5
+    tmpfs:
+      - /tmp:size=32m,mode=1777
+    networks:
+      - mt04_challenge_net
+    healthcheck:
+      test: ["CMD", "python", "-c", "import urllib.request; urllib.request.urlopen('http://127.0.0.1:8000/healthz', timeout=2).read()"]
+      interval: 10s
+      timeout: 3s
+      retries: 5
+      start_period: 10s
+    restart: unless-stopped
+networks:
+  mt04_challenge_net:
+    driver: bridge
