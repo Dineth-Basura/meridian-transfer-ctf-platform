@@ -9,6 +9,7 @@ services:
     environment:
       MT04_DB_PATH: /app/data/seed.sqlite
     ports:
+      # Bind locally by default; set MT04_BIND_ADDRESS to expose the portal elsewhere.
       - "${MT04_BIND_ADDRESS:-127.0.0.1}:8084:8000"
     read_only: true
     user: "10001:10001"
@@ -20,6 +21,7 @@ services:
     mem_limit: 256m
     cpus: 0.5
     tmpfs:
+      # Provide writable temporary storage for the service's read-only filesystem.
       - /tmp:size=32m,mode=1777
     networks:
       - mt04_challenge_net
